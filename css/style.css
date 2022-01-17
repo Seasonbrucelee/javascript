@@ -1,4 +1,9 @@
-.para{
+/*.para{
     font-weight: bold;
     color: red;
+}*/
+#monid{
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
 }
