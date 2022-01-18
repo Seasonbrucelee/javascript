@@ -1,12 +1,12 @@
 /*let result = 3 + 2;
 alert(result);*/
 
-let number = 3;
+/*let number = 3;
 number +=5;
 //alert(number);
 
 let hi = 'Bonjour ', nom = 'toi!', result;
-result = hi + nom;
+result = hi + nom;*/
 //alert(result);
 
 /*Sinon Si*/
