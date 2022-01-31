@@ -88,8 +88,8 @@ alert(new Calcul(4,3).produit);*/
 })();
 alert(sayHello3);//affiche Hello World!*/
 
-let calcul1 = (function(){// function anonyme
+/*let calcul1 = (function(){// function anonyme
                 let var1 = 2, var2= 3;
                 return var1*var2;
                 })();
-alert(calcul1);
+alert(calcul1);*/
