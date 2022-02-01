@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>JavaScript avec Vue et Node.js</title>
+</head>
+<body>
+
+  <!--<div id="demo">
+        <button v-on:click="show =!show">Permuter</button>
+        <transition name="fade">
+        <p v-if="show">Bonjour</p>
+        </transition>
+    </div>-->
+    <div id="app-1">
+        <p>{{ message }}</p>
+    </div>
+    <div id="app-2">
+        <span v-bind:title="message">Passez votre souris sur moi pendant quelques secondes
+        </span>
+    </div>
+    <div id="app-3">
+        <p v-if='seen'>Maintenant vous me voyez</p>
+    </div>
+
+    <!--<script src="https://unpkg.com/vue"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
