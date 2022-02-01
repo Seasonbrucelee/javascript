@@ -25,6 +25,20 @@
     <div id="app-3">
         <p v-if='seen'>Maintenant vous me voyez</p>
     </div>
+    <div id="app">
+        <h2>{{ product }} are in stock.</h2>
+    </div>
+
+    <div id="app-5">
+        <ul>
+            <li v-for="product in products">
+                {{ product }}
+            </li>
+        </ul>
+
+    </div>
+
+
 
     <!--<script src="https://unpkg.com/vue"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essai 4</title>
+</head>
+
+<body>
+    <div id="app">
+        <li v-for="product in products">
+            quantity : {{ product.quantity }}<br />name : {{ product.name}}
+        </li>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script><!--permet de récupérer le JSON-->
+    <script src="/exemple4/js/script.js"></script>
+
+</body>
+
+</html>
